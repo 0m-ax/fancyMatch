@@ -1,10 +1,11 @@
 class FancyMatch {
-    constructor(string){
+    constructor(string,seprator="."){
         this.String = string;
+        this.Seprator = seprator;
     }
     match(InputMatch){
-        var ExpressionArray =InputExpression.split('.');
-        var StringArray = this.String.split('.')
+        var ExpressionArray =InputExpression.split(this.Seprator);
+        var StringArray = this.String.split(this.Seprator)
         return FancyMatch._internal(StringArray,ExpressionArray)
     }
     static _internal(StringArray,ExpressionArray){
