@@ -12,5 +12,13 @@
     "match"
   ],
   "author": "max campbell",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initd-daemon/fancyMatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/initd-daemon/fancyMatch/issues"
+  },
+  "homepage": "https://github.com/initd-daemon/fancyMatch#readme"
 }
