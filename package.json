@@ -1,6 +1,6 @@
 {
   "name": "fancymatch",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A simple library of matching a string against many expressions ",
   "main": "index.js",
   "scripts": {
