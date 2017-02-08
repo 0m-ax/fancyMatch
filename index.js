@@ -3,7 +3,7 @@ class FancyMatch {
         this.String = string;
         this.Seprator = seprator;
     }
-    match(InputMatch){
+    match(InputExpression){
         var ExpressionArray =InputExpression.split(this.Seprator);
         var StringArray = this.String.split(this.Seprator)
         return FancyMatch._internal(StringArray,ExpressionArray)
